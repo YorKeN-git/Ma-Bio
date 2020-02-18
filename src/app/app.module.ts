@@ -6,6 +6,10 @@ import { HeaderComponent } from './components/header/header.component';
 import {MenubarModule} from 'primeng/menubar';
 import { IndexComponent } from './pages/index/index.component';
 import { CvComponent } from './components/cv/cv.component';
+import {CardModule} from 'primeng/card';
+import {PanelModule} from 'primeng/panel';
+import {BrowserAnimationsModule} from  '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { CvComponent } from './components/cv/cv.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MenubarModule
+    MenubarModule,
+    CardModule,
+    PanelModule,
+    BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

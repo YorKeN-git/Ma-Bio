@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //Initialisation du header
     this.items = [
         {
             label: 'Home',
