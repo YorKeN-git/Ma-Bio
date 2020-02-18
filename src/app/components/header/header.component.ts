@@ -15,11 +15,13 @@ export class HeaderComponent implements OnInit {
     this.items = [
         {
             label: 'Home',
-            icon: 'pi pi-home'
+            icon: 'pi pi-home',
+            routerLink: "/index"
         },
         {
             label: 'Mon CV',
             icon: 'pi pi-fw pi-pencil',
+            routerLink: "/monCV"
             
         },
         {

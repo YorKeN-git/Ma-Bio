@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import {MenubarModule} from 'primeng/menubar';
 import { IndexComponent } from './pages/index/index.component';
+import { CvComponent } from './components/cv/cv.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     IndexComponent,
+    CvComponent,
 
   ],
   imports: [
